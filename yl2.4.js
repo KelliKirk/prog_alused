@@ -12,9 +12,9 @@ rl.question('Kas soovite istekoha ise valida või loosida? ' , istekoht => {
     console.log('Valisite ise: Vahekäigukoht')
     console.log('Valisite ise: Keskmine koht')
 } else (istekoht == 'loos') {
-    console.log('Istekoht loositakse: Aknakoht')
-    console.log('Istekoht loositakse: Vahekäigukoht')
-    console.log('Istekoht loositakse: Keskmine koht')
+console.log(`Istekoht loositi: ${Math.random(1)*3} aken`)
+console.log(`Istekoht loositi: ${Math.random(1)*3} vahekäik`)
+console.log(`Istekoht loositi: ${Math.random(1)*3} keskel`) 
 } 
-console.log(`Istekoht loositi: ${Math.random(1)}   `)
+
 })
